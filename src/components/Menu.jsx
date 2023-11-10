@@ -22,7 +22,7 @@ const Menu = () => {
     }
   };
   return (
-    <div className="bg-gradient-to-r from-black to-gray-700 w-[200px] z-10 flex flex-col items-start absolute top-12 right-6 md:right-32 rounded-md p-4 space-y-4">
+    <div className="bg-gradient-to-r from-black to-gray-700 w-[200px] z-10 flex flex-col items-start absolute top-12 right-6 md:right-33 rounded-md p-4 space-y-4">
       {!user && (
         <h3 className="text-white text-sm hover:text-gray-400 cursor-pointer">
           <Link to="/login">Login</Link>

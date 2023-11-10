@@ -44,13 +44,13 @@ const Login = () => {
           </h1>
           <input
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full px-4 py-2 border rounded border-black outline"
+            className="w-full px-4 py-2 border rounded border-black outline-0"
             type="text"
             placeholder="Enter your email"
           />
           <input
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full px-4 py-2 border rounded border-black outline"
+            className="w-full px-4 py-2 border rounded border-black outline-0"
             type="password"
             placeholder="Enter your password"
           />

@@ -78,7 +78,7 @@ const CreatePost = () => {
             onChange={(e) => setTitle(e.target.value)}
             type="text"
             placeholder="Enter post title"
-            className="px-4 py-2 border rounded border-gray-400 outline"
+            className="px-4 py-2 border rounded border-gray-400"
           />
           <input
             onChange={(e) => setFile(e.target.files[0])}
@@ -90,7 +90,7 @@ const CreatePost = () => {
               <input
                 value={cat}
                 onChange={(e) => setCat(e.target.value)}
-                className="px-4 py-2 border rounded border-gray-400 outline"
+                className="px-4 py-2 border rounded border-gray-400"
                 placeholder="Enter post category"
                 type="text"
               />
@@ -124,7 +124,7 @@ const CreatePost = () => {
             onChange={(e) => setDesc(e.target.value)}
             rows={15}
             cols={30}
-            className="px-4 py-2 border rounded border-gray-400 outline"
+            className="px-4 py-2 border rounded border-gray-400"
             placeholder="Enter post description"
           />
           <button
